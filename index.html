@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title></title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet" />
+  <link rel="icon" type="image/png" sizes="32x32" href="img/icons8-weather-64.png"> <!-- Favicon -->
+
+</head>
+
+<body>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+
+  <div class="card text-center col-md-4">
+    <div class="card-header"><b>heading</b></div>
+    <div class="card-body">
+      <img src="img/20180125_001_1_.jpg" class="card-img-top" alt="...">
+      <p class="card-text"><b>Capital:</b> </p>
+      <p class="card-text"> <b>Region:</b></p>
+      <p class="card-text"> <b>Country Code:</b></p>
+      <button type="button" class="btn btn-secondary" data-container="body"
+        title="Weather:${weatherData.weather[0].description} " data-toggle="popover" data-placement="top" data-content="Temp: ${weatherData.main.temp} |
+       Pressure: ${weatherData.main.pressure} |
+       Humidity: ${weatherData.main.humidity}">
+        Click for Weather
+      </button>
+    </div>
+  </div>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
